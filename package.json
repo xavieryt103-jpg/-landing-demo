@@ -5,6 +5,7 @@
     "test": "echo \"pruebas ok\""
   },
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "exceljs": "^4.4.0"
   }
 }
