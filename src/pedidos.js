@@ -1,3 +1,3 @@
-function calcularTotal(pedido) {
+function calcularTotalPedido(pedido) {
   return pedido.items.reduce((t, i) => t + i.precio, 0);
 }
