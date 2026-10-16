@@ -1,10 +1,9 @@
 const { calcularTotal } = require('./total');
 
-// Genera la factura: subtotal + IGV
+// Genera la factura. calcularTotal() ya devuelve el total con IGV incluido,
+// por eso aqui NO se vuelve a sumar el IGV.
 function generarFactura(pedido) {
-  const subtotal = calcularTotal(pedido);
-  const igv = subtotal * 0.18;
-  return subtotal + igv;
+  return calcularTotal(pedido);
 }
 
 console.log("Total factura:", generarFactura({ items: [{ precio: 100 }] }).toFixed(2));
