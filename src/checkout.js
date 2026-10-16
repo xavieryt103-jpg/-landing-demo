@@ -1,8 +1,9 @@
 const { aplicarDescuento } = require('./descuento');
 
-// Total a pagar: usa aplicarDescuento esperando el precio final
+// Total a pagar = precio - monto del descuento
+// aplicarDescuento() devuelve el MONTO del descuento, no el precio final
 function totalAPagar(precio) {
-  return aplicarDescuento(precio);
+  return precio - aplicarDescuento(precio);
 }
 
 console.log("Total a pagar por 100:", totalAPagar(100));
