@@ -1,2 +1,2 @@
 ## Modulos del sistema
-- (pendiente)
+- Clientes: registrar y listar clientes
