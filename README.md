@@ -1,2 +1,2 @@
 ## Modulos del sistema
-- (pendiente)
+- Pedidos: registrar y consultar pedidos
