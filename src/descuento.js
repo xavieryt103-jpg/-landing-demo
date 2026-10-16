@@ -1,6 +1,6 @@
-// Devuelve el precio FINAL despues del 10% de descuento
+// Devuelve el MONTO del descuento (10% del precio)
 function aplicarDescuento(precio) {
-  return precio * 0.9;
+  return precio * 0.1;
 }
 
 module.exports = { aplicarDescuento };
