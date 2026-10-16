@@ -1,1 +1,1 @@
-console.log("Hola, bienvenido a nuestra tienda");
+console.log("Hola, bienvenido a nuestra tienda virtual");
